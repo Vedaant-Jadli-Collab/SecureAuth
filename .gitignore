@@ -1,0 +1,15 @@
+# Python virtual environment and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local secrets and settings (never commit passwords)
+.env
+.streamlit/secrets.toml
+
+# Streamlit and OS files
+.streamlit/
+*.log
+.DS_Store
+Thumbs.db
